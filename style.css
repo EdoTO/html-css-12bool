@@ -1,0 +1,37 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.debug [class*="col"] {
+    min-height: 50px;
+    color: white;
+    background-color: blue;
+    border: 1px solid white;
+    padding: 10px;
+    text-align: center
+}
+
+.debug [class*="col-offset"] {
+    background-color: white;
+}
+
+.row {
+    padding: 0 10px;
+}
+
+#green {
+    background-color: rgb(47, 194, 47);
+    border: 1px solid blue;
+    padding: 5px;
+}
+
+#double-col {
+    min-height: 100px;
+}
+
+#normal-col {
+    max-height: 50px;
+}
